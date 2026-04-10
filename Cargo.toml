@@ -1,0 +1,8 @@
+[package]
+name = "cuda-goal"
+version = "0.1.0"
+edition = "2021"
+description = "Goal decomposition — hierarchical goals, subgoaling, goal-stack management, and completion tracking"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
